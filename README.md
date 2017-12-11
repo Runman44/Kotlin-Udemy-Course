@@ -89,6 +89,29 @@ string!!.length -> the only way to get a nullpointer exception
 
 More information here: https://kotlinlang.org/docs/reference/null-safety.html
 
+## Chapter 2.
+Code for this chapter is in package chapter_2. 
+
+### Conditional Statements
+
+if statements and when statements are useful but you can also use them as expressions. Just retrieve a val of it and make sure every flow has an expression at the end.
+
+More information here: https://kotlinlang.org/docs/reference/control-flow.html
+
+## Chapter 3.
+Code for this chapter is in package chapter_3.
+
+### Array vs List
+
+use Array if you know how many elements you need in advance and it is not going to change.
+use List when you want to add or remove elements in the array.
+
+More information here: https://kotlinlang.org/docs/reference/collections.html
+
+## Chapter 4.
+Code for this chapter is in package chapter_4.
+
+### Loops
 
 
 
