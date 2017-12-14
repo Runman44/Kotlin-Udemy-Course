@@ -134,3 +134,15 @@ naming loops is handy for nested loops.
 
 More information here: https://kotlinlang.org/docs/reference/returns.html
 
+## Chapter 5.
+
+Code for this chapter is in package chapter_5.
+
+More information here: https://kotlinlang.org/docs/reference/coding-conventions.html
+
+## Chapter 6.
+
+Code for this chapter is in package chapter_6.
+
+
+
