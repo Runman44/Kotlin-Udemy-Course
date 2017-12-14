@@ -94,7 +94,7 @@ Code for this chapter is in package chapter_2.
 
 ### Conditional Statements
 
-if statements and when statements are useful but you can also use them as expressions. Just retrieve a val of it and make sure every flow has an expression at the end.
+if-statements and when-statements are useful but you can also use them as expressions. Just retrieve a val of it and make sure every flow has an expression at the end.
 
 More information here: https://kotlinlang.org/docs/reference/control-flow.html
 
@@ -113,5 +113,24 @@ Code for this chapter is in package chapter_4.
 
 ### Loops
 
+You have two kind of loops:
 
+- For loop
+- While loop
+
+Use while loop when you don't know howmany iterations you should make. Otherwise use the for loop.
+
+More information here: https://kotlinlang.org/docs/reference/control-flow.html
+
+### Returns
+
+This allows jumps in the codes.
+
+break is used when you don't want to loop when you met your condition.
+continue is used when you want to skip certain values. Like a list of users and only work with users with an condition.
+return by default returns from the nearest enclosing function or anonymous function.
+
+naming loops is handy for nested loops.
+
+More information here: https://kotlinlang.org/docs/reference/returns.html
 
