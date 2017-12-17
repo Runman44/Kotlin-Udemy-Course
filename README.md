@@ -118,7 +118,7 @@ You have two kind of loops:
 - For loop
 - While loop
 
-Use while loop when you don't know howmany iterations you should make. Otherwise use the for loop.
+Use while loop when you don't know how many iterations you should make. Otherwise use the for loop.
 
 More information here: https://kotlinlang.org/docs/reference/control-flow.html
 
@@ -144,5 +144,18 @@ More information here: https://kotlinlang.org/docs/reference/coding-conventions.
 
 Code for this chapter is in package chapter_6.
 
+### Functions
 
+Functions in Kotlin are declared using the fun keyword
+A function can hold parameters and return values.
 
+More information here: https://kotlinlang.org/docs/reference/functions.html
+
+## Chapter 7.
+
+Code for this chapter is in package chapter_7.
+
+Classes are blueprint for objects
+
+Properties are fields of models inside classes. the data.
+method are the functionality in classes.
