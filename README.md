@@ -197,3 +197,8 @@ More information here: https://kotlinlang.org/docs/reference/interfaces.html
 ## Chapter 8.
 
 Code for this chapter is in package chapter_8.
+
+### Data classes
+
+
+More information here: https://kotlinlang.org/docs/reference/data-classes.html
