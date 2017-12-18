@@ -155,7 +155,45 @@ More information here: https://kotlinlang.org/docs/reference/functions.html
 
 Code for this chapter is in package chapter_7.
 
-Classes are blueprint for objects
+### Classes
+A class is a blueprint for objects.
 
-Properties are fields of models inside classes. the data.
-method are the functionality in classes.
+- Properties are the data of a class
+- Method are the functionality in the class
+
+### Parameters
+
+Naming parameters helps us to understand wat each value in the constructors and functions mean.
+Default values allow us to do overloading of constructors and functions in a very concise way.
+
+### Inheritance
+
+If you don't specify the keyword "open" in front of the class/property/functions, then it wont be possible to inherent them.
+
+### Abstract
+
+Abstract classes are used to encapsulate similarities between different classes and gather them all in one place to avoid code duplication.
+
+For abstract classes you don't need to specify "open" anymore.
+You cannot make an instance of a abstract class. It's usually used as a parent class for inheritance.
+You can also abstract functions to enforce the child classes to override the function.
+
+Abstract is enforcing you to make child classes, because you are unable to create to instantiate an abstract class.
+Open classes can be instantiated.
+
+More information here: https://kotlinlang.org/docs/reference/classes.html
+
+### Interfaces
+
+Interfaces define a contract that different classes may choose to follow. 
+To do that, they have to override each method and property defined in the interface.
+
+We can implement multiple interfaces, whereas we can have only one parent class.
+
+Everything inside an interface is implicitly abstract.
+
+More information here: https://kotlinlang.org/docs/reference/interfaces.html
+
+## Chapter 8.
+
+Code for this chapter is in package chapter_8.
