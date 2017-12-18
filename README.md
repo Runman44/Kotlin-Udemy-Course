@@ -200,5 +200,12 @@ Code for this chapter is in package chapter_8.
 
 ### Data classes
 
+We frequently create classes whose main purpose is to hold data. 
+In such a class some standard functionality and utility functions are often mechanically derivable from the data.
+In Kotlin, this is called a data class and is marked as data
 
 More information here: https://kotlinlang.org/docs/reference/data-classes.html
+
+### Objects/Singleton
+
+More information here: https://kotlinlang.org/docs/reference/object-declarations.html

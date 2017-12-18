@@ -13,7 +13,7 @@ package chapter_8
  * Add each property to the most suitable class.
  */
 fun main(args: Array<String>) {
-    
+
 }
 
 interface Lendable {
