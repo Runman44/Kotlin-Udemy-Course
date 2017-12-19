@@ -221,3 +221,19 @@ Each enum constant is an object. Enum constants are separated with commas.
 More information here: https://kotlinlang.org/docs/reference/enum-classes.html
 
 ## Chapter 9.
+
+Code for this chapter is in package chapter_9.
+
+### Binary and Hexadecimal numbers
+
+- Decimals 
+    - 0..9
+- Hexadecimals
+    - 0..9
+    - A..F
+    - prefix 0x
+- Binary
+    - 0..1
+    - prefix 0b
+    
+## Chapter 10.
