@@ -237,3 +237,25 @@ Code for this chapter is in package chapter_9.
     - prefix 0b
     
 ## Chapter 10.
+
+Code for this chapter is in package chapter_10.
+
+### Access modifiers
+
+In kotlin you have the following access modifiers:
+
+- private
+- protected
+- internal
+- public
+
+More information here: 
+
+- https://kotlinlang.org/docs/reference/properties.html
+- https://kotlinlang.org/docs/reference/visibility-modifiers.html
+
+### Generics
+
+
+
+More information here: 
