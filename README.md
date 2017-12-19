@@ -208,4 +208,16 @@ More information here: https://kotlinlang.org/docs/reference/data-classes.html
 
 ### Objects/Singleton
 
+This is called an object declaration, and it always has a name following the object keyword. 
+Just like a variable declaration, an object declaration is not an expression, and cannot be used on the right hand side of an assignment statement.
+
 More information here: https://kotlinlang.org/docs/reference/object-declarations.html
+
+### Enum
+
+The most basic usage of enum classes is implementing type-safe enums
+Each enum constant is an object. Enum constants are separated with commas.
+
+More information here: https://kotlinlang.org/docs/reference/enum-classes.html
+
+## Chapter 9.
