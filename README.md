@@ -21,7 +21,6 @@ We can run the compiler without parameters to have an interactive shell. We can 
 var kotlin = "kotlin rocks!"
 kotlin (command + enter) will output the string.
 
-
 ### Variables
 
 There are two ways to store values.
