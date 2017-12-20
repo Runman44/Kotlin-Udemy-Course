@@ -6,7 +6,7 @@ fun main(args: Array<String>) {
 
     val ipAddresses = mutableMapOf<String, Int>()
 
-    File("src/ips.txt").forEachLine {
+    File("src/chapter_11/ips.txt").forEachLine {
 //        val ip = IPAddress(it)
 
         // First try

@@ -10,16 +10,12 @@ Install the following
 - Kotlin library
 
 ## Chapter 1.
+Code for this chapter is in package chapter_1.
+
+### Kotlin REPL
 
 In IntelliJ there is a playground to test your Kotlin code. It's called Kotlin REPL (Command line compiler)
-
-To open this playground go to:
-tools -> kotlin -> kotlin REPL
-
-We can run the compiler without parameters to have an interactive shell. We can type any valid Kotlin code and see the results. An example:
-
-var kotlin = "kotlin rocks!"
-kotlin (command + enter) will output the string.
+We can run the compiler without parameters to have an interactive shell. We can type any valid Kotlin code and see the results.
 
 ### Variables
 
@@ -30,62 +26,24 @@ There are two ways to store values.
 
 Variables created using val are immutable, meaning that they cannot be reassigned a different value after their first assignment.
 
-val name = "peter"
-name = "patrick"
-error: val cannot be reassigned
-
 ### Primitive types
 
 Kotlin will determine the data type by itself. 
-
-val b = 4
-
-b will be an int even though it might be a Byte. To store values explicitly we do the following
-
-val b: Byte = 4
-
-Now b will be stored as a value with data type Byte.
 To cast certain types to each other we need to use a method on the value. 
-
-var float2: Float = 3.4f
-var double2: Double = 0.0
-
-double2 = float2
-error: type mismatch: inferred type is Float but Double was expected
-
-To make this work:
-
-double2 = float2.toDouble()
-
-double2 - 3.4000000953674316
-
-As you see float is not that precise as double is. So this could be dangerous.
 
 More information here: https://kotlinlang.org/docs/reference/basic-types.html
 
 ### Expression vs Statements
 
-The main difference is that expressions do have a value and statements don't
-
-"Expression" -> this return a String value
-
-val statement = "statement" -> this returns nothing, it assigns
+The main difference is that expressions do have a value and statements don't.
 
 ### Nullable
 
 It's not possible to reference null value in kotlin.
-
-To create a nullable value our self we need to add a questionmark
-
-var string: String? = null
-
-To perform a method on a nullable value we also need to add a questionmark
-
-string?.length
-
-To enforce kotlin to run nullable code
-
-string!!.length -> the only way to get a nullpointer exception
+To create a nullable value our self we need to add a question mark.
+To perform a method on a nullable value we also need to add a question mark.
+To enforce kotlin to run nullable code you can add "!!" after the property to let it run 
+even though it can be null. This is the only way to get a nullpointer exception in kotlin. 
 
 More information here: https://kotlinlang.org/docs/reference/null-safety.html
 
@@ -135,13 +93,11 @@ naming loops is handy for nested loops.
 More information here: https://kotlinlang.org/docs/reference/returns.html
 
 ## Chapter 5.
-
 Code for this chapter is in package chapter_5.
 
 More information here: https://kotlinlang.org/docs/reference/coding-conventions.html
 
 ## Chapter 6.
-
 Code for this chapter is in package chapter_6.
 
 ### Functions
@@ -152,7 +108,6 @@ A function can hold parameters and return values.
 More information here: https://kotlinlang.org/docs/reference/functions.html
 
 ## Chapter 7.
-
 Code for this chapter is in package chapter_7.
 
 ### Classes
@@ -195,7 +150,6 @@ Everything inside an interface is implicitly abstract.
 More information here: https://kotlinlang.org/docs/reference/interfaces.html
 
 ## Chapter 8.
-
 Code for this chapter is in package chapter_8.
 
 ### Data classes
@@ -221,7 +175,6 @@ Each enum constant is an object. Enum constants are separated with commas.
 More information here: https://kotlinlang.org/docs/reference/enum-classes.html
 
 ## Chapter 9.
-
 Code for this chapter is in package chapter_9.
 
 ### Binary and Hexadecimal numbers
@@ -237,7 +190,6 @@ Code for this chapter is in package chapter_9.
     - prefix 0b
     
 ## Chapter 10.
-
 Code for this chapter is in package chapter_10.
 
 ### Access modifiers
@@ -262,16 +214,9 @@ But if the parameters may be inferred, e.g. from the constructor arguments or by
 More information here: https://kotlinlang.org/docs/reference/generics.html
 
 ## Chapter 11.
-
 Code for this chapter is in package chapter_11.
 
 ### Console
 
 readLine() method can read out input from the user in the console.
 This method will always return a value of type String.
-
-### Collections
-
-
-
-More information here: https://kotlinlang.org/docs/reference/collections.html
