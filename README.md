@@ -262,3 +262,11 @@ But if the parameters may be inferred, e.g. from the constructor arguments or by
 More information here: https://kotlinlang.org/docs/reference/generics.html
 
 ## Chapter 11.
+
+Code for this chapter is in package chapter_11.
+
+### Console
+
+readLine() method can read out input from the user in the console.
+This method will always return a value of type String.
+
