@@ -256,6 +256,9 @@ More information here:
 
 ### Generics
 
+As in Java, classes in Kotlin may have type parameters. In general, to create an instance of such a class, we need to provide the type arguments.
+But if the parameters may be inferred, e.g. from the constructor arguments or by some other means, one is allowed to omit the type arguments.
 
+More information here: https://kotlinlang.org/docs/reference/generics.html
 
-More information here: 
+## Chapter 11.
