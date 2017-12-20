@@ -270,3 +270,8 @@ Code for this chapter is in package chapter_11.
 readLine() method can read out input from the user in the console.
 This method will always return a value of type String.
 
+### Collections
+
+
+
+More information here: https://kotlinlang.org/docs/reference/collections.html
